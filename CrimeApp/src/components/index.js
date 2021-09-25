@@ -1,1 +1,1 @@
-import { Map } from "./Map";
+export { DisplayMap } from "./DisplayMap";

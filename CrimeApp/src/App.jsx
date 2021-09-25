@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { Map } from "./components/Map";
+import { DisplayMap } from "./components/DisplayMap";
 
 function App() {
 	const [params, setParams] = useState({});
@@ -55,7 +55,7 @@ function App() {
 					<option value="2021">2021</option>
 				</select>
 			</label>
-			<Map params={params} />
+			<DisplayMap params={params} />
 		</>
 	);
 }
